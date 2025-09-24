@@ -1,6 +1,8 @@
 #include <iostream>
 
-int main (int argc, char *argv[]) {
+int
+main(int argc, char *argv[])
+{
   int n, k, t;
   std::cin >> n >> k >> t;
   int full = n * t / 100;
